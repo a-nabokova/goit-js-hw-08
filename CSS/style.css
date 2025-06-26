@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    width: 1128px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+     
+     
+ }
+
+ .gallery-image {
+    width: 360px;
+    height: 200px;
+} 
+
+.gallery-item {
+    padding: 4px;
+}
+
+.gallery-item :hover {
+    transform: scale(1.02);
+}
+
+.basicLightbox {
+    background: #2e2f42be;
+    }
